@@ -4,10 +4,7 @@ library(dplyr)
 library(ggplot2)
 library(rsample)
 
-#Carpeta de trabajo
-setwd("Documentos/BEDU_DataScience/")
-
-football <- read.csv("4_Distribuciones/football.csv")
+football <- read.csv("football.csv")
 
 #Probabilidad marginal goles casa
 x <- football$FTHG
